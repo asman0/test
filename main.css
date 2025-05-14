@@ -1,0 +1,78 @@
+@media screen and (max-width: 2500px) {
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+.header {
+  max-width: 1522px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content-menu {
+  display: flex;
+  gap: 60px;
+}
+.header-content-menu__link {
+  font-size: 20px;
+  color: #727272;
+}
+
+@media screen and (max-width: 520px) {
+  .header-content-menu {
+    gap: 20px;
+  }
+  .header-content-menu__link {
+    font-size: 12px;
+  }
+}
+.main {
+  margin-top: 48px;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+}
+.main-content__title {
+  font-size: 36px;
+  color: #000000;
+  max-width: 574px;
+  text-align: center;
+}
+.main-content__date {
+  font-size: 16px;
+  color: #000000;
+}
+
+.news {
+  margin-top: 87px;
+}
+.news-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news-content__text {
+  font-size: 16px;
+  max-width: 1522px;
+}
+.news-content-image {
+  margin-top: 87px;
+  display: flex;
+  gap: 63px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.news-content-image__item {
+  max-width: 360px;
+}/*# sourceMappingURL=main.css.map */

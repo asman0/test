@@ -1,0 +1,9 @@
+@media screen and (max-width: 2500px) {
+    .container{
+        max-width:80%;
+        margin: 0 auto;
+    }
+  }
+@import "blocks/_header.scss";
+@import "blocks/_first.scss";
+@import "blocks/_news.scss";

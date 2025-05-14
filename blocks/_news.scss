@@ -1,0 +1,28 @@
+.news{
+    margin-top: 87px;
+    &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        &__text{
+            font-size: 16px;
+            max-width: 1522px;
+        }
+
+        &-image{
+            margin-top: 87px;
+            display: flex;
+            gap:63px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            &__item{
+                max-width: 360px;
+               
+            }
+        }
+    }
+}

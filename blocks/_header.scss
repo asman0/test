@@ -1,0 +1,33 @@
+.header{
+    max-width: 1522px;
+    margin: 0 auto;
+    padding-top: 12px;
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-menu{
+            display: flex;
+            gap:60px;
+            
+
+            &__link{
+                font-size: 20px;
+                color: #727272;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header-content-menu{
+        gap:20px;
+    }
+    .header-content-menu__link{
+        font-size: 12px;
+    }
+
+
+}
+  
